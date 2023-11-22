@@ -17,7 +17,7 @@ catch(PDOException $erro)
     $senhaBanco = $_POST["password"];
 
    
-   
+   //alterando
     
 
     $sql = $conn->prepare("SELECT * FROM usuario WHERE nome_usuario = ?");
