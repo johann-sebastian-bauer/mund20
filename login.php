@@ -4,7 +4,7 @@
 
 date_default_timezone_set('America/Sao_Paulo');
 try{
-    $conn = new PDO("mysql:dbname=mund20;host=localhost;charset=utf8","root","");
+    $conn = new PDO("mysql:dbname=mund20;host=localhost;charset=utf8","root","jbatataa");
 }
 catch(PDOException $erro)
 {
