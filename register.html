@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Registrar-se</title>
+</head>
+
+<body>
+
+    <div id="register">
+
+        <form action="register.php" method="post" class="card" id="register-form">
+
+            <div class="card-header">
+                <h2>Registrar-se</h2>
+            </div>
+
+            <div class="card-content">
+
+                <div class="card-content-area">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" autocomplete="off" name="usuario" required>
+                </div>
+
+                <div class="card-content-area">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" autocomplete="off" name="password" required>
+                </div>
+
+            </div>
+
+            <div class="card-footer">
+                <input type="submit" id="botao-submit" value="Registrar" class="submit">
+                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
