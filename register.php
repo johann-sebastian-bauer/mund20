@@ -17,8 +17,10 @@ $sql = $conn->prepare("SELECT * FROM usuario WHERE nome_usuario = ?");
 if ($sql->rowCount() == 1) {
     
     header("location:index.html");
+    
 }
-
+else{
 $sql = $conn->prepare("INSERT INTO usuario(nome_usuario, senha_usuario) VALUES (?,?)");
 
 $sql->execute([$usernameBanco,$senhaBanco]);
+}
