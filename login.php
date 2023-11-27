@@ -23,10 +23,10 @@ include_once("conexao.php");
 
        if($usuario['senha_usuario'] == $senhaBanco){
     
-            header("location:homepage.html");
+            header("location:homepage.php");
         }
      else {
-        echo "Usuário ou senha incorretos";
+        echo "<p>Usuário ou senha incorretos</p>";
     }
 }
    
