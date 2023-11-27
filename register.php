@@ -67,9 +67,7 @@ else{
 $sql = $conn->prepare("INSERT INTO usuario(nome_usuario, senha_usuario) VALUES (?,?)");
 
 $sql->execute([$usernameBanco,$senhaBanco]);
-<<<<<<< HEAD
-}
-=======
+
 }?>
 
         </div>
@@ -88,4 +86,3 @@ $sql->execute([$usernameBanco,$senhaBanco]);
 </html>
 
 
->>>>>>> 77da9e098bc5e16051ce0081cf9b2e5a241a6fa1
