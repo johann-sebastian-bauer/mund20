@@ -1,6 +1,10 @@
 body {
-    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
+    padding: 0;
     background-color: #454d6b;
     background-image: url(Leonardo_Diffusion_XL_RPG_Dangeon_and_dragon_3.jpg);
     background-size: cover;
